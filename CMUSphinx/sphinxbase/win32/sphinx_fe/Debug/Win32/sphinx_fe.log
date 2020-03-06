@@ -1,0 +1,4 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  sphinx_fe.c
+C:\Users\becab\OneDrive - BYU Office 365\NLP\FinalProject\CMUSphinx\sphinxbase\src\sphinx_fe\sphinx_fe.c(371,27): warning C4018: '<': signed/unsigned mismatch
+  sphinx_fe.vcxproj -> C:\Users\becab\OneDrive - BYU Office 365\NLP\FinalProject\CMUSphinx\sphinxbase\\bin\Debug\Win32\sphinx_fe.exe

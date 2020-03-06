@@ -1,0 +1,58 @@
+!!!alb.lexc!!!
+
+Multichar_Symbols dh gj zh sh ll th nj rr xh
+
+LEXICON Root
+
+Vowel ;
+Cons ;
+
+LEXICON Vowel
+
+a Same;
+e E;
+E A;
+i i; 
+o Same;
+u Same;
+
+LEXICON Cons
+
+b Same;
+c c; ts
+C Same;
+d Same;
+dh D;  
+f Same;
+g Same;
+gj J; ?? jive 
+h Same;
+j y;
+k Same;
+l l; ??
+ll l;
+m Same;
+n N; 
+nj n~;
+p Same;
+q C;
+r r(;
+rr r; 
+s Same;
+sh S;
+t Same;
+th T;
+v Same;
+x x; d + s
+xh J;
+y y; ?? y + u 
+z Same;
+zh Z;
+
+LEXICON Same
+
+0:0   #;
+
+
+
+

@@ -1,0 +1,67 @@
+### albPhon.foma ###
+
+# Letters
+define G [ a | e | E | i | o | u | b | c | C | d | dh | f | g | gj | h | j | k | l | ll | m | n | nj | p | q | r | rr | s | sh | t | th | v | x | xh | y | z | zh ];
+
+# Separate the letters
+define Separate [..] -> " " || G _ G ;
+
+define ePhon e -> E;
+
+define silentEPhon E -> 0 || _ .#.;
+
+define EPhon E -> A;
+
+define cPhon c -> t s;
+
+define dhPhon dh -> D;
+
+define gjPhon gj -> J;
+
+define jPhon j -> y;
+
+define lPhon l -> l;
+
+define llPhon ll -> L;
+
+define njPhon nj -> n y;
+
+define qPhon q -> C;
+
+define rPhon r -> r;
+
+define rrPhon rr -> R; 
+
+define shPhon sh -> S;
+
+define thPhon th -> T;
+
+define xPhon x -> d s;
+
+define xhPhon xh -> J;
+
+define yPhon y -> y u; 
+
+define zhPhon zh -> Z;
+
+define Grammar Separate	.o.
+		silentEPhon .o.
+		EPhon .o.
+		ePhon .o.
+		cPhon .o.
+		dhPhon .o.
+		yPhon .o.
+		gjPhon .o.
+		njPhon .o.
+		llPhon .o.
+		lPhon .o.
+		jPhon .o.
+		qPhon .o.
+		rPhon .o.
+		rrPhon .o.
+		shPhon .o.
+		thPhon .o.
+		xhPhon .o.
+		xPhon .o.
+		zhPhon;
+regex Grammar;
